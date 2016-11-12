@@ -7,6 +7,9 @@
 # Userspace Reboot
 $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 
+# Bootanimation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
