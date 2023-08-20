@@ -1,5 +1,5 @@
 # All unpinned blobs below are extracted from Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002/00WW_3_240:user/release-keys
-# FP3 Package version: Fairphone/FP3/FP3:11/8901.4.A.0010/gms-f74c58a8:user/release-keys
+# FP3 Package version: FP3-REL-6.A.018.0-gms-1f4b2a90-user
 
 # ADSP
 vendor/bin/adsprpcd
@@ -401,10 +401,10 @@ vendor/etc/init/vendor.qti.tftp.rc
 vendor/bin/hw/qcrild|9ebae4b7b4bc8fb31371f3926634206737d73bb2
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib64/liblqe.so|02191d7bfeca08ec8b89550a27bef02c3291609e
-vendor/lib64/libqcrilFramework.so|417db973aed4d2ec1be1a78ff402f4dc3650a93e
+vendor/lib64/libqcrilFramework.so|64386a08a3d8c85cd2117575e7d863a24a8b8850
 vendor/lib64/libqcrildatactl.so|b3dccb609cfdc64b7bc74d9d3204904d8972df4d
 vendor/lib64/libqdp.so|f83527aa6b6aa45c6495056dc830affbe889fb18
-vendor/lib64/libril-qc-hal-qmi.so|fd8dca1657ed3018c83f6ffbd1997aa4310a0aa4|5338d8e4783c63dbeec48ac3f4737d897023a844
+vendor/lib64/libril-qc-hal-qmi.so|cc70a2e8e2435dee4cb396dadbcd7c4c244287bd|da690126b6e97da004543425f6a6d8b37ad92cb1
 vendor/lib64/libril-qc-logger.so|7f80da37d120faffd72838b76d74102c7321e3a3
 vendor/lib64/librilqmiservices.so|e2714b4ca1792ea210899250414682c58e066f7d
 vendor/lib64/libsystem_health_mon.so|d40c48c91ea120583316efea358cb400a23c81cf
@@ -414,32 +414,32 @@ vendor/lib64/qtimutex.so|fc156f485519be1cd683f1af3ebb6194ce4ba2d5
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|b1680808bd26a89a586f9aca8839ca9389b6503a
 vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|b71ecdd47c46cae07fca43057695996e134e414b
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|463659c4b5050c1af1d100c83914fd710ca99710
-vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|589394d273571d0a8dd0f87587000ce8e87e0fab
-vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so|d4197cee5ec9630ca729cfa456519162ca974ff2
-vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so|1859d8170c77e11e1c6eb02e16dac4d5c4af8762
-vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so|c72cc7f7cf2fcee66e2adbfaf0a872617440b0bb
-vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so|aca03d2a7218c2d35705bc7495ca40b07e8076de
-vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so|e81002ebed2443c3f66f94ab1e8f36e5a72464c1
-vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so|9591e93323e3d2165931e378985513640d7078d7
-vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|54bc61927a3c677fe9291dfb9ee839ecc1842f49
-vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so|f706488f9a46b3a0ef630a46d8e020bc5f4718a1
-vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|536c1412bac13767e218b9e161050169b9cd0024
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so|9bc34ee0a67e54573f86ffbf2a76ec5a9a47d363
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so|144c4b48c0149426854f841cebf2987f318e4960
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|0a3dc08f47609b4607230fb22ef45187027aa917
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so|ab7a01145917b4b26008ba17e0b061ae18e1c01b
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so|7537e63151967aea37a7e934a4923699f76f65d8
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so|c6172f69fe19904d48d7e7fb83040a4d8a0c17c9
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so|c4ace987f88aeac8f7c845a01475bfe56ebb791a
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so|6d86366c3aa94d0e45f2926125a4567bc9ba1d75
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so|0e3a201691b21dcf6066f30eb0b861d6ce849454
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so|91ec4bccc679aa26d1a7737c236ea79941e78346
-vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|2e30b71b42e2c5c75772045d41b98fcdf54308f0
-vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|7c17513408775e1c8a730ecc174dec778182e15a
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|3655bc35150b1f82cefea980faded1bdff20631a
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|1bc9bf2264ec5e49d41662fbfbbb92c27c8c29bc
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|c197b4dbca1cfc10e50f2032367cde01ded61758
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|5984e8c77db0cd9fa68e41b550b5a91286b0267e
+vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|4cc14bfabf63aa20f02ad069933bdf09651aa86e
+vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so|c733d10f069f76d2f29e9719d0c50125a6acf230
+vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so|67f1a71c8c4a4340bf644c9e3fc368962b519368
+vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so|1967c6e57583e8061291437fe13f16d3a84ae7b0
+vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so|b712468fdc7fc841db469dca211fd0e97dd0bdba
+vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so|0518f96fd40a1638d6c6a1e61ff4d5f0fd5154b3
+vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so|460892bc063163bef3d6a1a348dab22ec70d5e37
+vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|2d6fc4dab39c4d332984e8b940bd16b66f3b56ef
+vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so|4ff46263854577eb9e09f85d40c3fbee298c7a94
+vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|33c17b96df825d02aa31ca6bd42a91547a741619
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so|0895d68405d960b54a11e21ac1d5d06444324f0e
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so|a5f2a41df2aedcd97a77a3e4ec546f36879ece3b
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|568438dd1d703169d02c3fdb1b37e2e0cb63b6a1
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so|44036cc1663f58ecfe9149311245ffdfc002ecd5
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so|b7eb75b7b8b9596706eaa60615c35db267877067
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so|83e3b2bd7a74ade550adcd64292048c8e8bb257b
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so|578c82624565b784b8417caa282bdd8600ee3cfd
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so|f2f651485fc35db21582a1e552d74126794bfabd
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so|2b3b80ab396bb4ad94a175ff36d10ee27b9b263d
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so|e319529414aea26f0b80926c67fb76e15133fbfd
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|dcb22ced0787401f068eae9522aa5a8d6c0ce911
+vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|b5b51274af9ae10e912cc240de97aa0875547e70
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|aa75f275e76d978b8b8a335f9cf782d4b41b58c9
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|f79ccf1975eb72fe4d4d9404e53614286041da3b
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|bb5517ea122c87762689a2036a2ecf1a30bc86f2
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|ec2ac641577d5ef350badc90b7f73ea91c399d1c
 
 # Sensors
 vendor/etc/sensors/hals.conf
