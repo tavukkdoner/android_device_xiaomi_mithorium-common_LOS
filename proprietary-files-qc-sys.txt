@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002/00WW_3_240:user/release-keys
+# FP3 Package version: FP3-REL-6.A.018.0-gms-1f4b2a90-user
 # sweet Package version: Redmi/sweet_global/sweet:12/SKQ1.210908.001/V13.0.3.0.SKFMIXM:user/release-keys
 
 # Audiosphere
@@ -140,7 +141,7 @@ system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 
-# Qti Telephony framework
+# Qti Telephony framework - from FP3
 system_ext/framework/qti-telephony-common.jar
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -149,16 +150,16 @@ system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so
 
-# Telephony (ATFWD)
+# Telephony (ATFWD) - from FP3
 -system_ext/app/atfwd/atfwd.apk
 
-# Telephony (datastatusnotification)
+# Telephony (datastatusnotification) - from FP3
 -system_ext/app/datastatusnotification/datastatusnotification.apk
 
-# Telephony (DeviceInfo)
+# Telephony (DeviceInfo) - from FP3
 -system_ext/app/DeviceInfo/DeviceInfo.apk
 
-# Telephony (eMBMS)
+# Telephony (eMBMS) - from FP3
 -system_ext/app/embms/embms.apk
 system_ext/etc/permissions/embms.xml
 system_ext/framework/embmslibrary.jar
@@ -166,24 +167,24 @@ system_ext/framework/embmslibrary.jar
 # Telephony (NetworkSetting)
 -system_ext/app/NetworkSetting/NetworkSetting.apk
 
-# Telephony (QcrilHook)
+# Telephony (QcrilHook) - from FP3
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/framework/qcrilhook.jar
 system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 
-# Telephony (QcrilMsgTunnel)
+# Telephony (QcrilMsgTunnel) - from FP3
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
-# Telephony (QtiTelephonyService)
+# Telephony (QtiTelephonyService) - from FP3
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 
-# Telephony (uimlpa)
+# Telephony (uimlpa) - from FP3
 -system_ext/app/uimlpaservice/uimlpaservice.apk
 system_ext/etc/permissions/lpa.xml
 system_ext/framework/uimlpalibrary.jar
 system_ext/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 
-# Telephony (uimremoteclient)
+# Telephony (uimremoteclient) - from FP3
 -system_ext/app/uimremoteclient/uimremoteclient.apk
 system_ext/etc/permissions/uimremoteclient.xml
 system_ext/framework/uimremoteclientlibrary.jar
@@ -191,7 +192,7 @@ system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 
-# Telephony (uimremoteserver)
+# Telephony (uimremoteserver) - from FP3
 -system_ext/app/uimremoteserver/uimremoteserver.apk
 system_ext/etc/permissions/uimremoteserver.xml
 system_ext/framework/uimremoteserverlibrary.jar
