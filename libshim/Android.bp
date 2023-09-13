@@ -13,12 +13,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-cc_library_shared {
-    name: "libshims_binder",
-    vendor: true,
-    shared_libs: ["libbinder_shim"],
-}
-
 // libandroid
 cc_library_shared {
     name: "libshims_android",
